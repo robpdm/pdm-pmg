@@ -1,3 +1,4 @@
+-- Q: What is the average time between orders of the same SKU, across all customers? Interested in most recent and second-to-most-recent.
 -- Create join of all purchased SKUs by customer
 WITH customer_purchases AS(
   SELECT
